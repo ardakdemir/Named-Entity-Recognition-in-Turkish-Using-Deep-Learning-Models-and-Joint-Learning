@@ -1,1 +1,3 @@
 # HelloWorld
+
+For educational purposes
