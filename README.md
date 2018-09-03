@@ -3,7 +3,7 @@
 Contributions planned:
 
 * Dependency parser output as feature to ML model
-  - Output of pretrained model and train on our own training set but need labels with (jPTDP)[https://github.com/datquocnguyen/jPTDP]
+  - Output of pretrained model and train on our own training set but need labels with [https://github.com/datquocnguyen/jPTDP](jPTDP)
 * Joint learning of dependency parsing together with ML
 * Combining various ML methods with Adaboost or some other boosting algorithm
 * Extensive analysis of all frequently used ML methods
