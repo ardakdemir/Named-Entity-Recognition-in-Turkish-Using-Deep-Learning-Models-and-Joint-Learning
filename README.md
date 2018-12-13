@@ -1,4 +1,6 @@
-# Named Entity Recognition for Turkish using ML methods
+# Named Entity Recognition in Turkish Using Deep Learning Models and Joint Learning
+
+This page describes the work done in the Ms.Thesis by Arda Akdemir. The main aim of this page is to provide a framework for reproducing the work done in our Thesis conveniently.
 
 Contributions planned:
 
