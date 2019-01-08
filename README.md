@@ -29,3 +29,9 @@ To train your own models you can use the program with the following code:
 python main.py --predout [output file] --outdir [output directory] --params [parameter file] --model [model file] --train [training file for dependency parsing] --dev [deveplopment file for dependency parsing] --trainner [training file for named entity recognition] --devner [development file for named entity recognition] 
 ```
 
+In order to use the system in the prediction mode you can use the following code:
+
+```
+python main.py --predict --model [model file to be inputted] --params [parameter file to be inputted] --predout [output file] --test [test file for dependency parsing] --testner [test file for named entity recognition]
+```
+
