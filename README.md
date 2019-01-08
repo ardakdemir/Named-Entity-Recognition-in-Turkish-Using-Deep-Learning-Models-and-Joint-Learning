@@ -12,3 +12,20 @@ Contributions planned:
 * Extensive analysis of all frequently used ML methods
 * Analysis of the problems and limitations related to the available dataset
 
+The source codes can be found under the src folder.
+
+### Reproducing the work
+
+Dependencies:
+
+```
+python 2.7
+dyNet
+```
+
+To train your own models you can use the program with the following code:
+
+```
+python main.py --predout [output file] --outdir [output directory] --params [parameter file] --model [model file] --train [training file for dependency parsing] --dev [deveplopment file for dependency parsing] --trainner [training file for named entity recognition] --devner [development file for named entity recognition] 
+```
+
