@@ -30,7 +30,8 @@ python main.py --predict --model [model file to be inputted] --params [parameter
 
 Below you can find the results we have obtained for the joint learning system. 
 
-||Model 1 |||Model 2 |||Model 3|
+
+|Model 1 |Model 2 |Model 3|
 |Type|Precision|Recall|F1|Precision|Recall|F1|Precision|Recall|F1|
 |------|------|-------|-------||------|-------|-------|
 |PER|89.74| 89.89|89.81 | 92.43|77.82|84.50 | 86.29|86.66 |86.48|
