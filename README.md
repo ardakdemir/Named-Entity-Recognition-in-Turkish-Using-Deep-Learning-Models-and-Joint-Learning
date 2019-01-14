@@ -33,7 +33,7 @@ Below you can find the results we have obtained for the joint learning system.
 
 |Model 1 |Model 2 |Model 3|
 |Type|Precision|Recall|F1|Precision|Recall|F1|Precision|Recall|F1|
-|------|------|-------|-------||------|-------|-------|
+|------|------|-------|-------|------|-------|-------|
 |PER|89.74| 89.89|89.81 | 92.43|77.82|84.50 | 86.29|86.66 |86.48|
 |LOC|  89.95 | 90.04 | 89.99 | 77.07|87.53|81.97| 86.84|85.89|86.36|
 |ORG| 87.56 | 86.65 | 87.10 | 81.21|75.67|78.34| 80.97|76.41|78.63|
