@@ -1,16 +1,9 @@
 # Named Entity Recognition in Turkish Using Deep Learning Models and Joint Learning
 
-This page describes the work done in the Ms.Thesis by Arda Akdemir. The main aim of this page is to provide a framework for reproducing the work done in our Thesis conveniently.
+This page describes the work done during the Ms.Thesis by Arda Akdemir. The main aim of this page is to provide a framework for reproducing the work done in our Thesis conveniently. 
 
-Contributions planned:
+We have developed a BiLSTM CRF based joint learning tool for Dependency Parsing and Named Entity Recognition using separate datasets.
 
-* Dependency parser output as feature to ML model
-  - Output of pretrained model and train on our own training set with [jPTDP](https://github.com/datquocnguyen/jPTDP) but need labels.
-  * Joint learning of dependency parsing together with ML
-  - We need a gold labeled data for dependency parser
-* Combining various ML methods with Adaboost or some other boosting algorithm
-* Extensive analysis of all frequently used ML methods
-* Analysis of the problems and limitations related to the available dataset
 
 The source codes can be found under the src folder.
 
@@ -34,4 +27,21 @@ In order to use the system in the prediction mode you can use the following code
 ```
 python main.py --predict --model [model file to be inputted] --params [parameter file to be inputted] --predout [output file] --test [test file for dependency parsing] --testner [test file for named entity recognition]
 ```
+
+Below you can find the results we have obtained for the joint learning system. 
+
+\begin{table}
+\caption{Results for all three models.}
+\begin{tabular}{c||c|c|c||c|c|c||c|c|c}\hline
+ &\multicolumn{3}{c} {Model 1}&\multicolumn{3}{c} {Model 2}&\multicolumn{3}{c} {Model 3}\\\hline
+ & \textbf{Precision}&\textbf{Recall}&\textbf{F1}& \textbf{Precision}&\textbf{Recall}&\textbf{F1}& \textbf{Precision}&\textbf{Recall}&\textbf{F1}
+||Model 1 |||Model 2 |||Model 3|
+|Type|Precision|Recall|F1|Precision|Recall|F1|Precision|Recall|F1|
+|------|------|-------|-------||------|-------|-------|
+|PER|89.74| 89.89|89.81 | 92.43|77.82|84.50 | 86.29|86.66 |86.48|
+|LOC|  89.95 | 90.04 | 89.99 | 77.07|87.53|81.97| 86.84|85.89|86.36|
+|ORG| 87.56 | 86.65 | 87.10 | 81.21|75.67|78.34| 80.97|76.41|78.63|
+|Overall|  89.28 | 89.15 | 89.21 | 83.78|80.51|82.11| 85.23|83.91|84.56|
+
+
 
