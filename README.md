@@ -30,11 +30,6 @@ python main.py --predict --model [model file to be inputted] --params [parameter
 
 Below you can find the results we have obtained for the joint learning system. 
 
-\begin{table}
-\caption{Results for all three models.}
-\begin{tabular}{c||c|c|c||c|c|c||c|c|c}\hline
- &\multicolumn{3}{c} {Model 1}&\multicolumn{3}{c} {Model 2}&\multicolumn{3}{c} {Model 3}\\\hline
- & \textbf{Precision}&\textbf{Recall}&\textbf{F1}& \textbf{Precision}&\textbf{Recall}&\textbf{F1}& \textbf{Precision}&\textbf{Recall}&\textbf{F1}
 ||Model 1 |||Model 2 |||Model 3|
 |Type|Precision|Recall|F1|Precision|Recall|F1|Precision|Recall|F1|
 |------|------|-------|-------||------|-------|-------|
