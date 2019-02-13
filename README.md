@@ -34,6 +34,9 @@ In order to use the system in the prediction mode you can use the following code
 python main.py --predict --model [model file to be inputted] --params [parameter file to be inputted] --predout [output file] --test [test file for dependency parsing] --testner [test file for named entity recognition]
 ```
 
+All the outputted files (score files for each epoch, annotated test files for each task) are stored under "conllouts" folder. Score files are named outX_score where X denotes the epoch number and annotated test files are appended for both tasks to the file named "predoutX" in a similar manner.
+
+
 Below you can find the results we have obtained for the joint learning system. Results are given for Model 1,2 and 3, respectively. First model is the NER only model, second model is the joint learner on a single dataset and the third model is the final proposed joint learner
 
 
