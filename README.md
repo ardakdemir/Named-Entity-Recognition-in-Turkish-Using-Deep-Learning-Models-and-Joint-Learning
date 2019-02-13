@@ -5,7 +5,9 @@ This page describes the work done during the Ms.Thesis by Arda Akdemir. The main
 We have developed a BiLSTM CRF based joint learning tool for Dependency Parsing and Named Entity Recognition using separate datasets.
 
 
-The source codes can be found under the src folder.
+The source codes can be found under the src folder. The datasets we have used throughout can be accessed using the following link:
+
+[https://drive.google.com/drive/folders/1R67bzzgFffA-ajkPnz5DBuZoTnttsA63?usp=sharing](Drive Link)
 
 ### Reproducing the work
 
