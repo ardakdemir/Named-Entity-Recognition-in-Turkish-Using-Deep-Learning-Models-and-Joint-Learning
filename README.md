@@ -7,7 +7,7 @@ We have developed a BiLSTM CRF based joint learning tool for Dependency Parsing 
 
 The source codes can be found under the src folder. The datasets we have used throughout can be accessed using the following link:
 
-[https://drive.google.com/drive/folders/1R67bzzgFffA-ajkPnz5DBuZoTnttsA63?usp=sharing](Drive Link)
+[Drive Link] (https://drive.google.com/drive/folders/1R67bzzgFffA-ajkPnz5DBuZoTnttsA63?usp=sharing)
 
 ### Reproducing the work
 
